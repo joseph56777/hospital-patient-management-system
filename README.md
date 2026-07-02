@@ -208,46 +208,6 @@ SELECT * FROM v_document_store_summary;
 
 ---
 
-## Suggested 3 to 5 minute video flow
-
-1. Show the folder structure and say the project is SQL-only but still includes SQL, NoSQL/document layer, and application layer.
-2. Show the ER diagram and explain the relational core and document collections.
-3. Open `01_SQL_Relational_Database.sql` and explain the SQL structured tables.
-4. Open `02_NoSQL_Document_Layer_Using_SQL_JSON.sql` and explain that the NoSQL-style part is implemented as JSON document collections in SQL.
-5. Open `03_Application_Layer_Using_SQL_Procedures.sql` and explain that stored procedures are used as the application layer.
-6. Run `CALL sp_project_quality_check();` to prove the record counts.
-7. Run the patient profile, follow-up queue, lab-risk report, and department performance report.
-8. Show the transaction demo and explain why ACID is important in healthcare.
-
----
-
-## Final report checklist
-
-The final PDF report should be below 3000 words and should include:
-
-- student information;
-- GitHub repository link;
-- video demonstration link;
-- introduction and healthcare domain explanation;
-- SQL relational schema explanation;
-- NoSQL/document layer explanation;
-- application-layer explanation;
-- screenshots or outputs from the demo queries;
-- indexing and optimization explanation;
-- transaction/ACID explanation;
-- challenges and solutions;
-- conclusion and future work;
-- Harvard references.
-
-Replace these placeholders before submission:
-
-- GitHub repository: `PASTE YOUR GITHUB LINK HERE`
-- Video demonstration: `PASTE YOUR VIDEO LINK HERE`
-
-Do not update the GitHub repository after the submission deadline.
-
----
-
 ## References to mention in the report
 
 Connolly, T. and Begg, C. (2015) *Database systems: A practical approach to design, implementation, and management*. Pearson Education.
@@ -264,9 +224,7 @@ MongoDB University (2024) *Introduction to MongoDB for SQL Professionals*. Avail
 
 Joseph Antony  
 M605 Advanced Databases  
-Gisma University of Applied Sciences
-
-## Error-free run order in MySQL Workbench
+Gisma University of Applied Science
 
 Run the files in this exact order. Do not start from the data file in a half-created database.
 
